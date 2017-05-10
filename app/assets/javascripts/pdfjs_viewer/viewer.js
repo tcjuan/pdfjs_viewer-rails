@@ -7142,7 +7142,7 @@ var PDFViewerApplication = {
 window.PDFView = PDFViewerApplication; // obsolete name, using it as an alias
 
 
-var HOSTED_VIEWER_ORIGINS = ['null',
+var HOSTED_VIEWER_ORIGINS = ['null','http://cms.herokuapp.com:3000',
   'http://mozilla.github.io', 'https://mozilla.github.io'];
 function validateFileURL(file) {
   try {
