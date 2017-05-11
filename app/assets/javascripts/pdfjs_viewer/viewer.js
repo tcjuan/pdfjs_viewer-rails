@@ -7143,7 +7143,7 @@ window.PDFView = PDFViewerApplication; // obsolete name, using it as an alias
 
 
 var HOSTED_VIEWER_ORIGINS = ['null','http://cms.herokuapp.com:3000',
-  'http://mozilla.github.io', 'staging.muchmarts.com','www.muchmarts.com','android.muchmarts.com','www.muchmart.com'];
+  'http://mozilla.github.io', 'http://staging.muchmarts.com','http://www.muchmarts.com','http://android.muchmarts.com','http://www.muchmart.com'];
 function validateFileURL(file) {
   try {
     var viewerOrigin = new URL(window.location.href).origin || 'null';
